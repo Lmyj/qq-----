@@ -45,7 +45,7 @@ window.onload=function(){
 		};
 	};
 	ajax({
-		url:'http://localhost/tt',
+		url:'http://lmyj.github.io/qq-----/tt',
 		onsuccess:function(data){
 			database = JSON.parse(data);
 			divplayframe.onmousedown = function(e){
